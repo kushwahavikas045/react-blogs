@@ -1,0 +1,46 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Reactjs UseEffect",
+      "image": "",
+      "author": "rahit kumar",
+      "category": "Web development",
+      "description": "reactjs useEffcet posts",
+      "Date": "null"
+    },
+    {
+      "id": 2,
+      "title": "Reactjs UseState",
+      "image": "",
+      "author": "praveen kumar",
+      "category": "Web development",
+      "description": "reactjs useState posts",
+      "Date": "null"
+    },
+    {
+      "title": "flutter widgets",
+      "author": "vinay jain",
+      "category": "mobile development",
+      "description": "Widgets describe what their view should look like given their current configuration and state. It includes a text widget, row widget, column widget, container widget, and many more. Widgets: Each element on a screen of the Flutter app is a widget",
+      "date": "2021-7-20",
+      "id": 3
+    },
+    {
+      "title": "Image Processing",
+      "author": "vinay jain",
+      "category": "data science",
+      "description": "\nImage processing is a method to perform some operations on an image, in order to get an enhanced image or to extract some useful information from it. It is a type of signal processing in which input is an image and output may be image or characteristics/features associated with that image.",
+      "date": "2021-7-20",
+      "id": 4
+    },
+    {
+      "title": "reactjs vs angularjs",
+      "author": "vinay",
+      "category": "web development",
+      "description": "xyz description",
+      "date": "2021-8-22",
+      "id": 5
+    }
+  ]
+}
