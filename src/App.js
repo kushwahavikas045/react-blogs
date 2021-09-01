@@ -1,31 +1,25 @@
-import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Headers from './components/Headers';
-
-import Blogs from './pages/Blogs';
-import BlogsDetails from './pages/BlogsDetails';
-import CreatePost from './pages/CreatePost';
-import Posts from './pages/Posts';
-function App() {
+import React from 'react'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Blogdetails from './pages/Blogdetails';
+import CreateBlog from './pages/CreateBlog';
+import Listblog from './pages/Listblog';
+const App = () => {
   return (
-    <Router>
-      <Headers/> 
-      <Switch>
-        <Route exact path="/">
-         <Blogs/>
-        </Route>
-        <Route exact path="/blogs/:id">
-         <BlogsDetails/>
-        </Route>
-        <Route exact path="/create-post">
-         <CreatePost/>
-        </Route>
-        <Route exact path="/posts">
-         <Posts/>
-        </Route>
-      </Switch>
-    </Router>
-  );
+   <Router>
+    <Switch>
+      
+      <Route exact path="/">
+        <Listblog/>
+      </Route>
+      <Route exact path="/blog/details/:id">
+        <Blogdetails/>
+      </Route>
+      <Route exact path="/blog/create">
+        <CreateBlog/>
+      </Route>
+    </Switch>
+   </Router>
+  )
 }
 
-export default App;
+export default App
